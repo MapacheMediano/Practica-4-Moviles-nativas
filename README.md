@@ -1,5 +1,5 @@
 README para el uso de la practica 4 Apps Moviles Nativas
-# Práctica 4: Aplicación de Búsqueda de Películas y Series
+# Práctica 4: Aplicación de Búsqueda de Películas y Series ✨✨
 
 Este proyecto es una práctica desarrollada para la materia de **Aplicaciones Móviles Nativas**. La aplicación permite a los usuarios buscar películas y series en un catálogo utilizando el consumo de una API. El proyecto fue desarrollado en **Android Studio**.
 
