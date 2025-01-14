@@ -1,64 +1,61 @@
 README para el uso de la practica 4 Apps Moviles Nativas
 # Práctica 4: Aplicación de Búsqueda de Películas y Series ✨✨
 
-Este proyecto es una práctica desarrollada para la materia de **Aplicaciones Móviles Nativas**. La aplicación permite a los usuarios buscar películas y series en un catálogo utilizando el consumo de una API. El proyecto fue desarrollado en **Android Studio**.
+Este proyecto es una práctica desarrollada para la materia de **Aplicaciones Móviles Nativas**. La aplicación permite a los usuarios buscar películas y series en un catálogo dinámico utilizando el consumo de una API. Fue desarrollada con **React Native**.
 
 ## Descripción
 La aplicación permite a los usuarios:
 
 - Buscar películas y series mediante un catálogo dinámico.
 - Visualizar información detallada de los resultados obtenidos de la API.
-- Practicar conceptos fundamentales del desarrollo móvil nativo en Android, como la integración de APIs, manejo de vistas y diseño de interfaces.
 
 ## Requisitos
-Antes de comenzar, asegúrate de tener los siguientes elementos instalados:
+Antes de comenzar, asegúrate de tener lo siguiente:
 
-- **Android Studio** (versión recomendada: Arctic Fox o superior).
-- **JDK** (Java Development Kit) versión 8 o superior.
-- Conexión a internet para el consumo de la API.
-- Una clave de API válida para el servicio de películas (por ejemplo, [The Movie Database (TMDb)](https://www.themoviedb.org/documentation/api)).
+- **Node.js** y **npm** o **yarn** instalados.
+- **React Native CLI** configurado.
+- Clave válida de la API para la búsqueda de películas.
+- Emulador o dispositivo físico para pruebas.
 
 ## Instalación
-Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
+Sigue estos pasos para configurar y ejecutar el proyecto:
 
 1. **Clona el repositorio**:
    ```bash
    git clone https://github.com/MapacheMediano/Practica-4-Moviles-nativas.git
    ```
+2. **Navega al directorio del proyecto**:
+   ```bash
+   cd Practica-4-Moviles-nativas
+   ```
+3. **Instala las dependencias**:
+   ```bash
+   npm install
+   ```
+   o
+   ```bash
+   yarn install
+   ```
+4. **Configura la clave de la API**:
+   - Busca el archivo donde se define la clave de la API (por ejemplo, en `config.js` o similar) y agrega tu clave válida.
 
-2. **Abre el proyecto en Android Studio**:
-   - Abre Android Studio.
-   - Selecciona `Open an existing project`.
-   - Navega hasta la carpeta donde clonaste el repositorio y ábrela.
-
-3. **Configura la clave de API**:
-   - Busca el archivo donde se configura la clave de la API (por ejemplo, un archivo `Constants.java` o `strings.xml`).
-   - Sustituye el valor de la clave de API por tu clave válida.
-
-4. **Sincroniza las dependencias**:
-   - En Android Studio, sincroniza el proyecto con `Gradle` haciendo clic en `Sync Project with Gradle Files`.
-
-5. **Ejecuta el proyecto**:
-   - Conecta un dispositivo físico o inicia un emulador desde Android Studio.
-   - Haz clic en el botón `Run` para compilar y ejecutar la aplicación.
+5. **Ejecuta la aplicación**:
+   - Inicia el servidor de desarrollo:
+     ```bash
+     npx react-native start
+     ```
+   - En otra terminal, corre la aplicación en tu dispositivo o emulador:
+     ```bash
+     npx react-native run-android
+     ```
+     o
+     ```bash
+     npx react-native run-ios
+     ```
 
 ## Uso
-1. Abre la aplicación en tu dispositivo o emulador.
+1. Inicia la aplicación en tu dispositivo o emulador.
 2. Utiliza la barra de búsqueda para ingresar el nombre de una película o serie.
-3. Navega por los resultados mostrados en la pantalla.
-4. Selecciona un resultado para ver información detallada sobre la película o serie.
-
-## Estructura del Proyecto
-- **`app/src/main/java`**: Contiene el código fuente principal de la aplicación.
-- **`app/src/main/res`**: Contiene los recursos de la aplicación (diseños, imágenes, valores, etc.).
-- **`build.gradle`**: Archivos de configuración de Gradle para la construcción del proyecto.
-
-## Contribución
-Actualmente, este proyecto no está abierto a contribuciones externas, ya que es parte de una práctica académica.
-
-## Licencia
-Este proyecto fue desarrollado con fines educativos como parte de la materia **Aplicaciones Móviles Nativas** y no incluye licencia para distribución pública.
+3. Explora los resultados y selecciona un elemento para obtener más detalles.
 
 ---
-
-Si tienes dudas o comentarios sobre este proyecto, por favor contacta a través de este repositorio.
