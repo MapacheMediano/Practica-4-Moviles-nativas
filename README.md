@@ -35,27 +35,36 @@ cd Practica-4-Moviles-nativas
    yarn install
    ```
 
-### 4. Configura la clave de la API
-1. Obtén una clave válida de la API externa utilizada para la búsqueda de películas.
-2. Busca en el proyecto el archivo donde se configura la clave de la API (por ejemplo, `config.js` o un archivo similar).
-3. Reemplaza la clave de ejemplo con tu clave válida.
-
-### 5. Ejecuta la aplicación
-1. Inicia el servidor de desarrollo:
+### 4. Correr aplicación en emulador Android
+1. Abrir un emulador de un dispositivo móvil Android, puede ser el de por defecto de Android Studio.
+2. Correr la aplicación ejecutando el siguiente comando:
    ```bash
-   npx react-native start
+      npm start
    ```
-2. En otra terminal, ejecuta la aplicación en un emulador o dispositivo físico:
-   - Para Android:
-     ```bash
-     npx react-native run-android
-     ```
-   - Para iOS:
-     ```bash
-     npx react-native run-ios
-     ```
+   
+   y depsues:
 
-## Consideraciones adicionales
+   ```bash
+      npm a
+   ```
+4. Esto permitira ejecutar de inmediato la aplicación en nuestro emulador de Android.
+
+### 5. Correr aplicación en dispositivo móvil externo.
+1. En el dipositivo móvil se debera instalar la aplicación Expo Go, que se encuentra en la Play Store.
+2. Ingresar a esta aplicación en el dispositivo móvil.
+3. Escanear el QR que se generó en el punto anterior, al correr el comando "npm start".
+4. Se abrira de imediato la aplicación en el dispositivo móvil, sin necesidad de alguna conexión.
+
+## 6. Navegar en la pestaña de Programas de TV.
+1. Navegar con ayuda de nuestro menú desplegable a la pantalla de Programas de TV.
+2. Dentro del buscador poner el nombre de alguna serie o programa de televisión que desea buscar.
+3. Realizar la busqueda.
+4. Se desplegara todos los resultados que coincidan con este nomobre y se podra agregar a favoritos o eliminarlos en su defecto.
+
+## 7. Navegar a la pestaña de Favoritos.
+1. Navegar con ayuda de nuestro menú desplegable a la pantalla de Favoritos.
+2. Aquí se mostraran todos los programas añadidos a favoritos, estos se guardan dentro de la meoria del dispositivo.
+3. Es posible eliminarlos de esta lista.
 
 - Si ejecutas la aplicación en un dispositivo físico, asegúrate de que esté conectado a la misma red que tu computadora.
 - Verifica que el emulador esté configurado correctamente y tenga acceso a internet.
