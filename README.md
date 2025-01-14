@@ -9,26 +9,24 @@ La aplicación permite a los usuarios:
 - Buscar películas y series mediante un catálogo dinámico.
 - Visualizar información detallada de los resultados obtenidos de la API.
 
-## Requisitos
-Antes de comenzar, asegúrate de tener lo siguiente:
+## Repositorio
+[Repositorio en GitHub](https://github.com/MapacheMediano/Practica-4-Moviles-nativas/tree/master)
 
-- **Node.js** y **npm** o **yarn** instalados.
-- **React Native CLI** configurado.
-- Clave válida de la API para la búsqueda de películas.
-- Emulador o dispositivo físico para pruebas.
+## Instrucciones para ejecutar el proyecto
 
-## Instalación
-Sigue estos pasos para configurar y ejecutar el proyecto:
+### 1. Clona el repositorio
+```bash
+git clone https://github.com/MapacheMediano/Practica-4-Moviles-nativas.git
+```
 
-1. **Clona el repositorio**:
-   ```bash
-   git clone https://github.com/MapacheMediano/Practica-4-Moviles-nativas.git
-   ```
-2. **Navega al directorio del proyecto**:
-   ```bash
-   cd Practica-4-Moviles-nativas
-   ```
-3. **Instala las dependencias**:
+### 2. Navega al directorio del proyecto
+```bash
+cd Practica-4-Moviles-nativas
+```
+
+### 3. Instala las dependencias
+1. Asegúrate de tener **Node.js** y **npm** instalados en tu sistema. Puedes descargarlos desde [nodejs.org](https://nodejs.org/).
+2. Instala las dependencias del proyecto ejecutando:
    ```bash
    npm install
    ```
@@ -36,26 +34,30 @@ Sigue estos pasos para configurar y ejecutar el proyecto:
    ```bash
    yarn install
    ```
-4. **Configura la clave de la API**:
-   - Busca el archivo donde se define la clave de la API (por ejemplo, en `config.js` o similar) y agrega tu clave válida.
 
-5. **Ejecuta la aplicación**:
-   - Inicia el servidor de desarrollo:
-     ```bash
-     npx react-native start
-     ```
-   - En otra terminal, corre la aplicación en tu dispositivo o emulador:
+### 4. Configura la clave de la API
+1. Obtén una clave válida de la API externa utilizada para la búsqueda de películas.
+2. Busca en el proyecto el archivo donde se configura la clave de la API (por ejemplo, `config.js` o un archivo similar).
+3. Reemplaza la clave de ejemplo con tu clave válida.
+
+### 5. Ejecuta la aplicación
+1. Inicia el servidor de desarrollo:
+   ```bash
+   npx react-native start
+   ```
+2. En otra terminal, ejecuta la aplicación en un emulador o dispositivo físico:
+   - Para Android:
      ```bash
      npx react-native run-android
      ```
-     o
+   - Para iOS:
      ```bash
      npx react-native run-ios
      ```
 
-## Uso
-1. Inicia la aplicación en tu dispositivo o emulador.
-2. Utiliza la barra de búsqueda para ingresar el nombre de una película o serie.
-3. Explora los resultados y selecciona un elemento para obtener más detalles.
+## Consideraciones adicionales
+
+- Si ejecutas la aplicación en un dispositivo físico, asegúrate de que esté conectado a la misma red que tu computadora.
+- Verifica que el emulador esté configurado correctamente y tenga acceso a internet.
 
 ---
